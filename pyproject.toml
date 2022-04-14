@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Solid"
+version = "0.1.0"
+description = "Application for manage personal finances."
+authors = ["MrAbade <vini.abade@outlook.com.br>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.10.1"
+ipython = "^8.2.0"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
