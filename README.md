@@ -26,3 +26,21 @@
         - remover um portfolio inteiro da carteira (deve ter operação de desfazer)
         - ver rendimento da carteira (todos os portfolios)
         - ver o rendimento unido de um ou mais portfolios
+
+
+## Requisitos Não Funcionais
+
+| `Requisitos`                      | `Escolha`                 |
+| --------------------------------: | :------------------------ |
+| Arquitetura                       | Hexagonal - Monolítica    |
+| Linguagem                         | Python                    |
+| Framework WEB                     | Starlette                 |
+| Banco de Dados                    | Postgres                  |
+| Tecnologia de BD                  | AIOPG                     |
+| ORM                               | ------------------------- |
+| Servidor                          | NGINX                     |
+| Orquestração de Containers DEV    | Docker Compose            |
+| Orquestração de Containers        | Docker Swarm              |
+| Cloud Computing                   | EC2                       |
+| CD                                | AWS CodeDeploy            |
+| CI                                | AWS CodePipeline          |
